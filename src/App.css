@@ -47,39 +47,46 @@
   box-shadow: 0 0 10px rgba(172, 166, 166, 0.1);
 }
 
+
+
+
 .app-title {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #2c3e50;
   text-align: center;
-  color: #333;
-  margin-bottom: 30px;
+  padding: 20px 0;
+  margin: 0;
+  background-color: #ecf0f1;
 }
 
 nav {
   display: flex;
-  justify-content:left;
-  gap: 20px; 
-  margin-bottom: 20px; 
+  justify-content: center;
+  gap: 30px;
+  padding: 10px;
+  background-color: #34495e;
+  margin-bottom: 30px;
 }
-
 
 nav a {
-  text-decoration: none;
   color: white;
+  font-size: 16px;
   padding: 10px 20px;
-  border-radius: 5px;
-  background-color: #007bff; 
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 22px;
-  transition: background-color 0.3s;
+  border-radius: 25px;
+  background-color: #e74c3c;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
 }
-
 
 nav a:hover {
-  background-color: #0056b3;
+  background-color: #c0392b;
 }
-
 
 nav a.active {
-  background-color: #0056b3;
+  background-color: #3498db;
 }
+
+
 
 

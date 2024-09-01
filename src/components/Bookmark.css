@@ -6,12 +6,19 @@
     width:min-content;
     border:chartreuse;
     border-radius: 5px;
+  
     cursor: pointer;
     background-color: #0da514;
     color: #fff;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
   }
   
   .bookmark-btn.bookmarked {
-    background-color: #FF6347;
+    background-color: #047520;
   }
-  
+
+
+.bookmark-btn:hover {
+  background-color: #1abc9c;
+}

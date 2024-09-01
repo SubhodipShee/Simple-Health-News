@@ -5,6 +5,7 @@ import NewsList from './components/News';
 import Bookmarked from './components/Bookmarked';
 import Category from './components/Category';
 import './App.css';
+import Footer from './components/Footer';
 
 
 const App = () => {
@@ -27,6 +28,7 @@ const App = () => {
           <Route path="/" element={<NewsList category={category} />} />
           <Route path="/bookmarked" element={<Bookmarked />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );

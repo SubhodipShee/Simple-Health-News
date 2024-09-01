@@ -1,0 +1,17 @@
+
+.bookmark-btn {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 10px;
+    font-size: 14px;
+    width:min-content;
+    border:chartreuse;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #0da514;
+    color: #fff;
+  }
+  
+  .bookmark-btn.bookmarked {
+    background-color: #FF6347;
+  }
+  

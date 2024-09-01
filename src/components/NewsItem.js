@@ -1,5 +1,6 @@
 
 import React from 'react';
+import Bookmark from './Bookmark';
 import './NewsItem.css';
 
 const NewsItem = ({ article }) => {
@@ -12,6 +13,7 @@ const NewsItem = ({ article }) => {
         <a href={article.url} className="news-link" target="_blank" rel="noopener noreferrer">
           Read more
         </a>
+        <Bookmark article={article} />
       </div>
     </div>
   );

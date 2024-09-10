@@ -2,20 +2,20 @@
 
 .news-list {
   display:block;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid layout */
-  gap: 20px; /* Space between news items */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+  gap: 20px; 
   padding: 20px;
 }
 
 .news-list-item {
   background-color: #ffffff;
   border-radius: 8px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .news-list-item:hover {
-  transform: translateY(-5px); /* Slight lift on hover */
+  transform: translateY(-5px);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
 }
